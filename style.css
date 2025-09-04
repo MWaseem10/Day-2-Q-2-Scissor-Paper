@@ -1,0 +1,28 @@
+body {
+  font-family: system-ui, sans-serif;
+  padding: 2rem;
+  background: #f8fafc;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+button {
+  margin: 0.4rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid #555;
+  border-radius: 6px;
+  cursor: pointer;
+  background: white;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #e5e7eb;
+}
+
+#out, #score {
+  margin-top: 1rem;
+  font-weight: bold;
+}
